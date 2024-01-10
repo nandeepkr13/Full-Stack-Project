@@ -1,0 +1,58 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #7bbfec;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.quote-container {
+  background-color: #e7e55c;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.quote-container:hover {
+  transform: scale(1.05);
+}
+
+.quote-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.author-text {
+  margin-top: 10px;
+  color: #555;
+}
+
+.generate-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+  background-color: #2980b9;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 16px;
+  font-weight: bold;
+}
